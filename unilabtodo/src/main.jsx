@@ -5,6 +5,7 @@ import App from "./App.jsx"
 import "./index.css"
 
 import Registration from "./Registration.jsx"
+import Account from "./Account.jsx"
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/account" element={<Account />} />
         </Routes>
       </BrowserRouter>
     </>

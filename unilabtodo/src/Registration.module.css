@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #5efc8d;
+  --secondary-color: #e6ebff;
+}
+
+.form {
+  width: 588px;
+  height: 688px;
+  background-color: white;
+  border-radius: 4px;
+  color: #000;
+  padding: 30px 50px 60px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.photoUploadArea,
+.nameInputArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoUpload {
+  width: 122px;
+  height: 122px;
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+  cursor: pointer;
+
+  transition: background-color 0.5s;
+}
+
+.photoUpload:hover {
+  background-color: var(--primary-color);
+}
+
+.photoUpload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.photoUpload::before {
+  width: 122px;
+  height: 122px;
+  content: url("./assets/photoupload.svg");
+  width: 41px;
+  position: relative;
+  top: 30%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.nameInput {
+  width: 487px;
+  height: 76px;
+  padding: 24px;
+  background-color: var(--secondary-color);
+  color: #6e6e6e;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 24px;
+}
+
+.registrationFormButton {
+  width: 258px;
+  height: 66px;
+  font-size: 32px;
+  background-color: var(--primary-color);
+}
+
+.registrationFormButton:hover {
+  background-color: #000;
+  color: white;
+}

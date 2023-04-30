@@ -10,7 +10,7 @@ function Home() {
       <h1>Keep Track Of Daily Tasks In Life</h1>
 
       <Link to="/registration">
-        <button>Get Started</button>
+        <button className={styles.homeButton}>Get Started</button>
       </Link>
     </div>
   )
