@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #5efc8d;
+  --secondary-color: #e6ebff;
+}
+
 body {
   background-color: black;
   color: white;
@@ -10,7 +15,7 @@ img {
 .homeButton {
   width: 388px;
   height: 98px;
-  background-color: #5efc8d;
+  background-color: var(--primary-color);
   border-radius: 4px;
   color: black;
   font-weight: light;

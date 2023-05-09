@@ -1,0 +1,31 @@
+.header {
+  background-color: black;
+  color: white;
+
+  width: 100vw;
+  height: 98px;
+  padding: 15px 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.headerProfile {
+  display: flex;
+  align-items: center;
+}
+
+.profilePicture {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: var(--primary-color) solid 1;
+}

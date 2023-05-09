@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #5efc8d;
+  --secondary-color: #e6ebff;
+}
+
+.accountPage {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: white;
+  color: black;
+}
