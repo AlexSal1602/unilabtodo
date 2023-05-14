@@ -11,6 +11,7 @@ function Account() {
   return (
     <div className={stylesAccount.accountPage}>
       <Header />
+      <h1>Add Your Daily Tasks</h1>
       <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>

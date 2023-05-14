@@ -1,4 +1,4 @@
-import React from "react"
+import stylesform from "./Form.module.css"
 
 function Form(props) {
   const { setInputText, inputText, todos, setTodos } = props
@@ -15,9 +15,9 @@ function Form(props) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input value={inputText} onChange={handleInput} type="text" />
-      <button type="submit">Submit</button>
+    <form onSubmit={handleSubmit} className={stylesform.form}>
+      <input value={inputText} onChange={handleInput} type="text" placeholder="my task" />
+      <button type="submit">Add</button>
     </form>
   )
 }

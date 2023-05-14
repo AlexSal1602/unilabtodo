@@ -18,12 +18,13 @@
 .headerProfile {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .profilePicture {
   width: 65px;
   height: 65px;
-  margin-left: 15px;
+  object-fit: cover;
   border-radius: 50%;
   position: relative;
   overflow: hidden;

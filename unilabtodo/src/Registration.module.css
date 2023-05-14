@@ -49,13 +49,11 @@ span {
 }
 
 .photoUpload::before {
-  width: 122px;
-  height: 122px;
   content: url("./assets/photoupload.svg");
   width: 41px;
   position: relative;
-  top: 30%;
-  left: 34%;
+  top: 25%;
+  left: 25%;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }

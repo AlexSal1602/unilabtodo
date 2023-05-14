@@ -1,0 +1,22 @@
+.todo {
+  background-color: black;
+  width: 595px;
+  height: 54px;
+  color: white;
+  padding: 11px 11px 11px 24px;
+  border-radius: 4px;
+  margin: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo p {
+  font-size: 22px;
+}
+
+.todoitemicons img {
+  width: 24px;
+  margin-left: 21px;
+}
